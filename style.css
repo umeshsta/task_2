@@ -106,9 +106,10 @@ button{
   margin-left: 50px;
 }
 .div{
-  border: 2px solid black;
+  /* border: 2px solid black; */
   height: 500px;
   width: 30vw;
+  border-radius: 5px;
 
 
 }
@@ -121,8 +122,63 @@ button{
 .div h3 {
   margin: 10px 0;
 }
+
+.blog-title{
+  padding: 40px;
+}
+.blog-title h1{
+  margin-bottom: 20px;
+}
 .load {
   margin: 30px auto;
   display: block;
   padding: 10px 20px;
+}
+/* FOOTER */
+.footer {
+  background: #111;
+  color: white;
+  padding: 40px;
+}
+
+.footer-top {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.footer-top button {
+  margin: 10px;
+  padding: 10px 20px;
+}
+
+.primary {
+  background: white;
+  color: black;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.footer-grid h4 {
+  margin-bottom: 10px;
+}
+
+.logoc{
+  text-align: end;
+  margin-top: 30px;
+  font-size: 14px;
+}
+.logob {
+  margin: 30px;
+  font-size: 14px;
+  display: flex;
+  position: relative;
+  /* justify-content: center; */
+  align-items: center;
+  /* border: 2px solid red; */
+  text-decoration: none;
+
 }
