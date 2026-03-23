@@ -110,15 +110,32 @@ button{
   height: 500px;
   width: 30vw;
   border-radius: 5px;
+  
 
 
 }
+
 .div img {
   width: 100%;
   border-radius: 8px;
   /* padding: auto; */
 }
-
+.user{
+  margin-top: 20px;
+  display: flex;
+  /* gap: 50px; */
+  align-items: center;
+  
+}
+.user img{
+  display: flex;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+}
+.user p{
+  margin-left: 40px;
+}
 .div h3 {
   margin: 10px 0;
 }
